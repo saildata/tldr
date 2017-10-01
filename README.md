@@ -5,9 +5,10 @@
 [![Merged PRs][prs-merged-image]][prs-merged-url]
 [![Issue stats][issuestats-image]][issuestats-url]
 [![GitHub contributors][contributors-image]][contributors-url]
+[![Number of files][tokei-image]][tokei-url]
 [![license][license-image]][license-url]
 
-[travis-url]: https://travis-ci.org/tldr-pages/tldr
+[travis-url]: https://travis-ci.org/tldr-pages/tldr/builds
 [travis-image]: https://travis-ci.org/tldr-pages/tldr.svg?branch=master
 [gitter-url]: https://gitter.im/tldr-pages/tldr
 [gitter-image]: https://badges.gitter.im/tldr-pages/tldr.svg
@@ -17,6 +18,8 @@
 [issuestats-image]: http://isitmaintained.com/badge/resolution/tldr-pages/tldr.svg
 [contributors-url]: https://github.com/tldr-pages/tldr/graphs/contributors
 [contributors-image]: https://img.shields.io/github/contributors/tldr-pages/tldr.svg
+[tokei-url]: https://github.com/tldr-pages/tldr/tree/master/pages
+[tokei-image]: https://tokei.rs/b1/github/tldr-pages/tldr?category=files
 [license-url]: https://github.com/tldr-pages/tldr/blob/master/LICENSE.md
 [license-image]: https://img.shields.io/github/license/tldr-pages/tldr.svg
 
@@ -44,7 +47,7 @@ Surely people could benefit from simplified man pages focused on practical examp
 ![tldr screenshot](screenshot.png)
 
 This repository is just that: an ever-growing collection of examples
-for the most common UNIX / Linux / OSX / SunOS commands.
+for the most common UNIX / Linux / macOS / SunOS commands.
 
 ## Clients
 
@@ -71,6 +74,7 @@ You can access these pages on your computer using one of the following clients:
 - [Haskell client](https://github.com/psibi/tldr-hs) : `stack install tldr`
 - [Node.js client](https://github.com/tldr-pages/tldr-node-client) : `npm install -g tldr`
 - [Perl5 client](https://github.com/shoichikaji/perl-tldr): `cpanm App::tldr`
+- [PHP client](https://github.com/BrainMaestro/tldr-php): `composer global require brainmaestro/tldr`
 - Python clients:
   - [tldr-python-client](https://github.com/tldr-pages/tldr-python-client) : `pip install tldr`
   - [tldr.py](https://github.com/lord63/tldr.py): `pip install tldr.py`
